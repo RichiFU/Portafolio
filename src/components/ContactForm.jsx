@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
-
+import { motion } from "framer-motion";
 
 const ContactForm = () => {
     const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -38,13 +38,17 @@ const ContactForm = () => {
 
     return (
         <section className="bg-gradient-to-b from-[#0c0d25] via-[#22306b] to-[#121438]">
-            <div
-                id="contact"
+            <motion.div
+                id="contacto"
                 className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 "
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }}
             >
 
+
                 {/* Columna 1 50% de pantalla */}
-                <div className="lg:w-1/2">
+                <div className="lg:w-1/2 mt-20">
                     <div>
                         <h5 className="lg:text-3xl text-xl font-bold text-white my-2">
                             Contacto
@@ -77,7 +81,7 @@ const ContactForm = () => {
                 </div>
 
                 {/* Columna 2 50% de pantalla */}
-                <div className="lg:w-1/2">
+                <div className="lg:w-1/2 mt-20">
                     <h5 className="lg:text-3xl text-xl text-center font-bold text-white my-2 pb-8">
                         Formulario
                     </h5>
@@ -157,7 +161,7 @@ const ContactForm = () => {
                         </form>
                     )}
                 </div>
-            </div>
+            </motion.div>
         </section>
     );
 };

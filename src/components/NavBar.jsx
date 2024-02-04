@@ -42,7 +42,7 @@ const Navbar = () => {
                     </div>
                     <div className="menu hidden md:block md:w-auto" id="navbar">
                         <div className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0 no-underline">
-                            <Link href="/about" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white "> Acerca de mí </Link>
+                            <Link href="/#about" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white "> Acerca de mí </Link>
                             <Link href="/projects" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"> Proyectos</Link>
                             <Link href="/contact" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white">Contacto</Link>
 
@@ -50,8 +50,8 @@ const Navbar = () => {
                     </div>
                 </div>
                 {navbarOpen ? <div className="flex flex-col py-4 items-center">
-                    <Link href="/about" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"> Acerca de mí</Link>
-                    <Link href="/projects" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"> Proyectos</Link>
+                    <Link href="/#about" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"> Acerca de mí</Link>
+                    <Link href="/projectsAndContact" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"> Proyectos</Link>
                     <Link href="/contact" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"> Contacto</Link>
                 </div> : null}
             </nav>

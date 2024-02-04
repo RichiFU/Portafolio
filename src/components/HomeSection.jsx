@@ -35,7 +35,7 @@ const HomeSection = () => {
 
               <TypeAnimation
                 sequence={[
-                  "Desarrollador Web Full Stack",
+                  "Desarrollador Web",
                   1000,
                   "Ingeniero Informático",
                   1000,
@@ -86,7 +86,7 @@ const HomeSection = () => {
           <div className="rounded w-[350px] h-[350px] lg:w-[400px] lg:h-[400px]">
             <Image
               src="/images/developer-dark.svg"
-              alt="hero image"
+              alt="home image"
               width={400}
               height={400}
             />

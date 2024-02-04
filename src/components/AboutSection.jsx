@@ -15,17 +15,20 @@ import { IoLogoSass } from "react-icons/io5";
 const AboutSection = () => {
 
   return (
-    <section className="bg-gradient-to-b from-[#0c0d25] via-[#22306b] to-[#121438]">
+    <section className="">
       <div className="container text-white py-20" id="about">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-20 ">
-          <div className="lg:w-1/2 mt-20">
-
-
-            <Image className="rounded" src="/images/Web-Developer.jpg" alt="imagen" width={500} height={500} />
+          <div className="lg:w-1/2 mt-20 ">
+            <Image
+              className="rounded   "
+              src="/images/Web-Developer.jpg"
+              alt="developer"
+              width={500}
+              height={400} />
           </div>
           <div className="lg:w-1/2">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Acerca de mí</h2>

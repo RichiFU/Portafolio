@@ -10,6 +10,7 @@ export default function Home() {
     <main className="bg-gradient-to-b from-[#0c0d25] via-[#22306b] to-[#121438]">
       <div className="container">
         <HomeSection />
+        <AboutSection />
       </div>
     </main>
   );

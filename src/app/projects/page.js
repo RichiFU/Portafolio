@@ -1,3 +1,4 @@
+import ContactForm from "@/components/ContactForm"
 import Projects from "@/components/Projects"
 
 
