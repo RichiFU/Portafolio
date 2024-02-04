@@ -1,5 +1,5 @@
 "use client";
-import React, { useTransition, useState } from "react";
+
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -14,9 +14,6 @@ import { IoLogoSass } from "react-icons/io5";
 
 const AboutSection = () => {
 
-
-
-
   return (
     <section className="bg-gradient-to-b from-[#0c0d25] via-[#22306b] to-[#121438]">
       <div className="container text-white py-20" id="about">
@@ -28,23 +25,20 @@ const AboutSection = () => {
           <div className="lg:w-1/2 mt-20">
 
 
-            <Image src="/images/Web-Developer.jpg" alt="imagen" width={500} height={500} />
+            <Image className="rounded" src="/images/Web-Developer.jpg" alt="imagen" width={500} height={500} />
           </div>
           <div className="lg:w-1/2">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">About Me</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Acerca de mí</h2>
             <p className=" text-sm text-[#ADB7BE]  sm:text-xl lg:text-xl">
-              I am a full stack web developer with a passion for creating
-              interactive and responsive web applications. I have experience
-              working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-              Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-              looking to expand my knowledge and skill set. I am a team player and
-              I am excited to work with others to create amazing applications.
+              ¡Hola! mi nombre es Ricardo Fuentes,
+              soy un apasionado desarrollador web full stack comprometido con el aprendizaje continuo y la mejora constante, Tengo habilidades sólidas en JavaScript, React, Node.js, Express, MongoDB, HTML, CSS, y otras tecnologías del lado del cliente y del servidor.
+              Me destaco por mi capacidad para comunicar ideas de manera efectiva, resolver problemas de manera colaborativa y adaptarme rápidamente a nuevas tecnologías
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-1 gap-4">
               {/* Primera Fila */}
               <div className="sm:col-span-2 pt-5">
                 <div className="text-2xl text-center font-bold text-white ">
-                  <h3>Skills</h3>
+                  <h3>Habilidades</h3>
 
                 </div>
               </div>

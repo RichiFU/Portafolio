@@ -8,7 +8,7 @@ const projectsData = [
     {
         id: 1,
         title: "Proyecto 1 : Landing de Venta",
-        description: "Project 1 description",
+        description: "Proyecto de Landing Page, Utilizando HTML y CSS",
         image: "/images/project1.png",
         gitUrl: "https://github.com/RichiFU/Project-1-Landing",
         previewUrl: "https://richifu.github.io/Project-1-Landing",
@@ -16,7 +16,7 @@ const projectsData = [
     {
         id: 2,
         title: "Proyecto 2 : Aplicación CRUD",
-        description: "Project 2 description",
+        description: "Proyecto de CRUD, se utiliza Javascript y Localstorage",
         image: "/images/project2.png",
         gitUrl: "https://github.com/RichiFU/Proyecto-2-CRUD-RFU",
         previewUrl: "https://richifu.github.io/Proyecto-2-CRUD-RFU",
@@ -24,7 +24,7 @@ const projectsData = [
     {
         id: 3,
         title: "Proyecto 3 : Dashboard",
-        description: "Project 3 description",
+        description: "Proyecto de tablero de datos con Chart.js",
         image: "/images/project3.png",
         gitUrl: "https://github.com/RichiFU/Proyecto-3-Dashboard-RFU",
         previewUrl: "https://proyecto-3-dashboard-rfu.netlify.app/",
@@ -32,7 +32,7 @@ const projectsData = [
     {
         id: 4,
         title: "Proyecto 4 : Restaurant App",
-        description: "Project 4 description",
+        description: "Proyecto de restaurant con React y Firebase",
         image: "/images/project4.png",
         gitUrl: "https://github.com/RichiFU/Proyecto-4-Restaurant-Ricardo-F",
         previewUrl: "https://proyecto4-restaurant-rfu.netlify.app/",
@@ -40,7 +40,7 @@ const projectsData = [
     {
         id: 5,
         title: "Proyecto 5 : E-Commerce",
-        description: "Authentication and CRUD operations",
+        description: "Proyecto E-commerce, con React, MongoDB y Express",
         image: "/images/project5.png",
         gitUrl: "https://github.com/RichiFU/Proyecto-5-E-commerce-Front-End",
         previewUrl: "https://proyecto5-marathon-e-commerce.netlify.app/",
