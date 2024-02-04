@@ -1,8 +1,10 @@
 # Portafolio Personal con Next.js y Tailwind CSS
 
-Este es mi portafolio personal, desarrollado con Next.js y estilizado con Tailwind CSS. Es un proyecto con enfoque minimalista y eficiente para mostrar mis habilidades, proyectos y experiencia.
+Bienvenido a mi portafolio personal, una creación elaborada con Next.js y estilizada con Tailwind CSS. Este proyecto refleja mi dedicación hacia un diseño minimalista y eficiente, destacando de manera clara y atractiva mis habilidades, proyectos y experiencia en el campo del desarrollo web.
+
 
 ![Imagen de la aplicacion](./public/images/portafolioweb.png)
+
 
 ## Tecnologías Utilizadas
 
@@ -13,9 +15,8 @@ Este es mi portafolio personal, desarrollado con Next.js y estilizado con Tailwi
 
 - **Diseño Responsivo:** El portafolio está diseñado para ser totalmente receptivo y funcionar en una variedad de dispositivos y tamaños de pantalla.
 - **Animaciones con Framer Motion:** Utiliza la biblioteca Framer Motion para agregar animaciones elegantes y atractivas a los elementos de la interfaz de usuario.
-- **Muestra de Proyectos:** Presenta tus proyectos de manera clara y atractiva, con detalles como imágenes, descripciones y enlaces a repositorios y vistas previas.
+- **Muestra de Proyectos:** Se presentan proyectos realizados de manera clara y atractiva, con detalles como imágenes, descripciones y enlaces a repositorios y vistas previas.
 - **Sección de Contacto:** Incluye una sección de contacto donde los visitantes pueden enviar mensajes directos desde el portafolio.
-
 
 ## Despliegue
 
