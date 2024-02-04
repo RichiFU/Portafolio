@@ -40,7 +40,7 @@ const ContactForm = () => {
         <section className="bg-gradient-to-b from-[#0c0d25] via-[#22306b] to-[#121438]">
             <motion.div
                 id="contacto"
-                className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-10 "
+                className="container flex flex-col-reverse lg:flex-row py-5 lg:py-10 "
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
@@ -87,7 +87,7 @@ const ContactForm = () => {
                     </h5>
                     {emailSubmitted ? (
                         <p className="text-green-500 text-sm mt-2">
-                            Email sent successfully!
+                            Email enviado correctamente!
                         </p>
                     ) : (
                         <form className="flex flex-col" onSubmit={handleSubmit}>
@@ -95,7 +95,7 @@ const ContactForm = () => {
                                 <label
                                     className="text-white block mb-2 text-sm font-medium"
                                 >
-                                    Your name
+                                    Nombre
                                 </label>
                                 <input
                                     name="name"
@@ -110,7 +110,7 @@ const ContactForm = () => {
                                 <label
                                     className="text-white block mb-2 text-sm font-medium"
                                 >
-                                    Your email
+                                    Correo Electrónico
                                 </label>
                                 <input
                                     name="email"
