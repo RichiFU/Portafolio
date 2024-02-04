@@ -10,6 +10,9 @@ Bienvenido a mi portafolio personal, una creación elaborada con Next.js y estil
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/) 
+- [Framer Motion](https://www.framer.com/motion/) 
+- [HTML](https://developer.mozilla.org/es/docs/Web/HTML) 
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) 
 
 ## Características Principales
 
