@@ -35,7 +35,7 @@ const AboutSection = () => {
             <p className=" text-sm text-[#ADB7BE]  sm:text-xl lg:text-xl">
               ¡Hola! mi nombre es Ricardo Fuentes U;
               soy un apasionado Desarrollador Web Full Stack comprometido con el aprendizaje continuo y la mejora constante, Tengo habilidades sólidas en JavaScript, React, Node.js, Express, MongoDB, HTML, CSS, y otras tecnologías del lado del cliente y del servidor.
-              Me destaco por mi capacidad para comunicar ideas de manera efectiva, resolver problemas de manera colaborativa y adaptarme rápidamente a nuevas tecnologías
+              Me destaco por mi capacidad para comunicar ideas de manera efectiva, resolver problemas de manera colaborativa y adaptarme rápidamente a nuevas tecnologías.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-1 gap-4">
               {/* Primera Fila */}

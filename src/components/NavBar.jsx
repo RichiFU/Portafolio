@@ -51,7 +51,7 @@ const Navbar = () => {
                 </div>
                 {navbarOpen ? <div className="flex flex-col py-4 items-center">
                     <Link href="/#about" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"> Acerca de mí</Link>
-                    <Link href="/projectsAndContact" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"> Proyectos</Link>
+                    <Link href="/projects" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"> Proyectos</Link>
                     <Link href="/contact" className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white"> Contacto</Link>
                 </div> : null}
             </nav>
