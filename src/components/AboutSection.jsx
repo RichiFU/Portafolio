@@ -25,9 +25,9 @@ const AboutSection = () => {
           <div className="lg:w-1/2 mt-20 mx-auto">
             <Image
               className="rounded lg:ml-10"
-              src="/images/myprofilepic.jpg"
+              src="/images/developer-dark.svg"
               alt="developer"
-              width={300}
+              width={400}
               height={350} />
           </div>
           <div className="lg:w-3/4">
