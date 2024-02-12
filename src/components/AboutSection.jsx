@@ -22,15 +22,15 @@ const AboutSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-20 ">
-          <div className="lg:w-1/2 mt-20 ">
+          <div className="lg:w-1/2 mt-20 ml-10">
             <Image
               className="rounded   "
-              src="/images/Web-Developer.jpg"
+              src="/images/myprofilepic.jpg"
               alt="developer"
-              width={500}
-              height={400} />
+              width={300}
+              height={350} />
           </div>
-          <div className="lg:w-1/2">
+          <div className="lg:w-3/4">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Acerca de mí</h2>
             <p className=" text-sm text-[#ADB7BE]  sm:text-xl lg:text-xl">
               ¡Hola! mi nombre es Ricardo Fuentes U;
