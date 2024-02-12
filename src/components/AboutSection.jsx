@@ -22,9 +22,9 @@ const AboutSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-20 ">
-          <div className="lg:w-1/2 mt-20 ml-10">
+          <div className="lg:w-1/2 mt-20 mx-auto">
             <Image
-              className="rounded   "
+              className="rounded lg:ml-10"
               src="/images/myprofilepic.jpg"
               alt="developer"
               width={300}
