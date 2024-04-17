@@ -23,7 +23,7 @@ Bienvenido a mi portafolio personal, una creación elaborada con Next.js y estil
 
 ## Despliegue
 
-Abre la pagina web: https://portafolio-nine-gules.vercel.app/, para acceder al portafolio.
+Abre la pagina web: https://portafolio-ricardo-f-u.vercel.app/, para acceder al portafolio.
 
 ## Licencia
 
