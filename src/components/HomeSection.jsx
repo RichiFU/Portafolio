@@ -56,7 +56,7 @@ const HomeSection = () => {
           <div className="flex gap-2 flex-wrap justify-center">
 
             <button
-              onClick={() => openInNewTab("/images/CV-DS-RFU.pdf")}
+              onClick={() => openInNewTab("/images/CV-RFU-DS.pdf")}
               className="bg-transparent border-3  text-white mt-3 px-5 py-2 rounded-full transition-colors hover:bg-blue-500 hover:border-blue-500">
               Ver CV
             </button>
