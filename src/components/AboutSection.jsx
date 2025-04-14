@@ -81,6 +81,16 @@ const AboutSection = () => {
                     <span className="ml-2">MongoDB</span>
                   </h6>
                   <h6 className="flex items-center border-2 rounded px-3 py-1">
+                    <Image
+                      src="/images/iconmysql.svg"
+                      alt="hero image"
+                      width={30}
+                      height={30}
+                      className="text-white"
+                    />
+                    <span className="ml-2">MySQL</span>
+                  </h6>
+                  <h6 className="flex items-center border-2 rounded px-3 py-1">
                     <SiExpress fontSize={25} color="gray" />
                     <span className="ml-2">Express</span>
                   </h6>
@@ -113,6 +123,15 @@ const AboutSection = () => {
                       height={30}
                     />
                     <span className="ml-2">Git</span>
+                  </h6>
+                  <h6 className="flex items-center border-2 rounded px-3 py-1">
+                    <Image
+                      src="/images/iconsgithub.svg"
+                      alt="hero image"
+                      width={30}
+                      height={30}
+                    />
+                    <span className="ml-2">Github</span>
                   </h6>
 
 

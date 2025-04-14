@@ -16,9 +16,9 @@ const Navbar = () => {
                         className="text-2xl md:text-5xl text-white font-semibold duration-500 hover:scale-110"
                     >
                         <Image
-                            src="/images/myportfolio.png"
+                            src="/images/iconsportf2.png"
                             alt="Portafolio"
-
+                            
                             width={50}
                             height={50}
                         />
