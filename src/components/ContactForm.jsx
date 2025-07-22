@@ -37,7 +37,7 @@ const ContactForm = () => {
     };
 
     return (
-        <section className="bg-gradient-to-b from-[#0c0d25] via-[#22306b] to-[#121438]">
+        <section className="bg-gradient-to-b from-[#0a0b1f] via-[#111c48]  to-[#0a0b1f]">
             <motion.div
                 id="contacto"
                 className="container flex flex-col-reverse lg:flex-row py-5 lg:py-10 "
@@ -53,12 +53,7 @@ const ContactForm = () => {
                         <h5 className="lg:text-3xl text-xl font-bold text-white my-2">
                             Contacto
                         </h5>
-                        <p className="text-[#ADB7BE] pt-9 pb-3 my-3 max-w-lg">
-                            En la actualidad, estoy explorando nuevas oportunidades. Siéntete libre de comunicarte conmigo;
-                            me esforzaré al máximo por darte una pronta respuesta. Asimismo,
-                            estoy abierto para conversar sobre proyectos emocionantes
-                            y posibles colaboraciones. ¡Espero recibir noticias tuyas pronto!
-                        </p>
+                        <hr className="border-t-4 border-[#ADB7BE] my-4 w-80" />
                     </div>
                     <div className="pt-2">
 
@@ -78,6 +73,7 @@ const ContactForm = () => {
                         ))}
 
                     </div>
+                    <hr className="border-t-4 border-[#ADB7BE] my-4 w-80" />
                 </div>
 
                 {/* Columna 2 50% de pantalla */}

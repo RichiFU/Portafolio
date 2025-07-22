@@ -64,7 +64,7 @@ const Projects = () => {
     };
 
     return (
-        <section className="bg-gradient-to-b from-[#0c0d25] via-[#22306b] to-[#121438]">
+        <section className="bg-gradient-to-b from-[#0a0b1f] via-[#111c48]  to-[#0a0b1f]">
             <div className="container py-20 px-8" id="projects">
                 <h2 className="text-center text-4xl font-bold text-white mb-4 md:mb-12">
                     Mis Proyectos

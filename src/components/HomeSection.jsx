@@ -49,7 +49,7 @@ const HomeSection = () => {
           </div>
           <div >
 
-            <p className="text-[#ADB7BE] pt-3 text-sm text-center sm:text-xl mt-6 mb-6 lg:text-xl">
+            <p className="text-xl mb-3 sm:text-xl md:text-xl lg:text-xl xl:text-xl text-[#ADB7BE]">
               Mi pasión por la tecnología y la programación me impulsa a estar en constante aprendizaje, buscando soluciones innovadoras y eficientes para cada desafío que encuentro. Siempre estoy en la búsqueda de nuevas herramientas y metodologías que me permitan mejorar mis habilidades y mantenerme al tanto de las últimas tendencias en el mundo del desarrollo web.
             </p>
           </div>
