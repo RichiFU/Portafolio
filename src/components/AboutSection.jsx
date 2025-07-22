@@ -24,18 +24,18 @@ const AboutSection = () => {
           className="container mx-auto flex flex-col-reverse lg:flex-row py-5 lg:py-20 ">
           <div className="lg:w-1/2 mt-20 mx-auto">
             <Image
-              className="rounded lg:ml-10"
-              src="/images/developer-dark.svg"
-              alt="developer"
-              width={400}
-              height={350} />
+              src="/images/myprofilepic.jpg"
+              alt="home image"
+              width={280}
+              height={400}
+              className="rounded-circle border-2 shadow mx-auto mt-10" />
           </div>
           <div className="lg:w-3/4">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Acerca de mí</h2>
             <p className=" text-sm text-[#ADB7BE]  sm:text-xl lg:text-xl">
               ¡Hola! mi nombre es Ricardo Fuentes U;
               soy un apasionado Desarrollador Web Full Stack comprometido con el aprendizaje continuo y la mejora constante, Tengo habilidades sólidas en JavaScript, React, Node.js, Express, MongoDB, HTML, CSS, y otras tecnologías del lado del cliente y del servidor.
-              Me destaco por mi capacidad para comunicar ideas de manera efectiva, resolver problemas de manera colaborativa y adaptarme rápidamente a nuevas tecnologías.
+              Soy detallista por naturaleza, persistente ante errores, y tengo un enfoque riguroso que combina lógica con pensamiento crítico.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-1 gap-4">
               {/* Primera Fila */}
@@ -60,6 +60,15 @@ const AboutSection = () => {
                   <h6 className="flex items-center border-2 rounded px-3 py-1">
                     <IoLogoJavascript fontSize={25} color="yellow" />
                     <span className="ml-2">JavaScript</span>
+                  </h6>
+                  <h6 className="flex items-center border-2 rounded px-3 py-1">
+                    <Image
+                      src="/images/python.png"
+                      alt="hero image"
+                      width={30}
+                      height={30}
+                    />
+                    <span className="ml-2">Python</span>
                   </h6>
                   <h6 className="flex items-center border-2 rounded px-3 py-1">
                     <Image

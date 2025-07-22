@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <NavBar />
         {children}
         <AppFooter />
-        </body>
+      </body>
     </html>
   );
 }

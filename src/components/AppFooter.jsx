@@ -18,7 +18,7 @@ function AppFooter() {
 
 
     return (
-        <footer className='bg-gradient-to-t from-[#0c0d25] to-[#121438]'>
+        <footer className='bg-[#0a0b1f]'>
             <div className="container p-12 flex flex-column items-center justify-center">
                 <div className="flex flex-row gap-4">
                     <button
@@ -34,7 +34,7 @@ function AppFooter() {
                     </button>
                 </div>
                 <div className="text-center">
-                <p className="text-[#ADB7BE] text-base pt-3">&copy; {new Date().getFullYear()} Todos los derechos Reservados. Next.js & Tailwind CSS Portafolio. Ricardo F</p>
+                    <p className="text-[#ADB7BE] text-base pt-3">&copy; {new Date().getFullYear()} Todos los derechos Reservados. Next.js & Tailwind CSS Portafolio. Ricardo F</p>
                 </div>
             </div>
         </footer>

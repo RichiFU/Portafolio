@@ -7,7 +7,7 @@ import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <main className="bg-gradient-to-b from-[#0c0d25] via-[#22306b] to-[#121438]">
+    <main className="bg-gradient-to-b from-[#0a0b1f] via-[#111c48]  to-[#0a0b1f]">
       <div className="container">
         <HomeSection />
         <AboutSection />

@@ -85,11 +85,11 @@ const HomeSection = () => {
         >
           <div className="rounded w-[350px] h-[350px] lg:w-[400px] lg:h-[400px]">
             <Image
-              src="/images/myprofilepic.jpg"
-              alt="home image"
-              width={280}
-              height={400}
-              className="rounded border-2 shadow mx-auto mt-10"
+              className="rounded lg:ml-10"
+              src="/images/developer-dark.svg"
+              alt="developer"
+              width={400}
+              height={350}
             />
           </div>
         </motion.div>

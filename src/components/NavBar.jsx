@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <header>
-            <nav className=" mx-auto bg-gradient-to-t from-[#0c0d25] to-[#121438]">
+            <nav className=" mx-auto bg-[#0a0b1f]">
                 <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
                     <Link
                         href={"/"}
@@ -18,7 +18,7 @@ const Navbar = () => {
                         <Image
                             src="/images/iconsportf2.png"
                             alt="Portafolio"
-                            
+
                             width={50}
                             height={50}
                         />

@@ -7,7 +7,7 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
     {
         id: 1,
-        title: "Proyecto 1 : Landing de Venta",
+        title: "Proyecto : Landing de Venta",
         description: "Proyecto de Landing Page, Utilizando HTML y CSS",
         image: "/images/project1.png",
         gitUrl: "https://github.com/RichiFU/Project-1-Landing",
@@ -15,7 +15,7 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "Proyecto 2 : Aplicación CRUD",
+        title: "Proyecto : Aplicación CRUD",
         description: "Proyecto de CRUD, se utiliza Javascript y Localstorage",
         image: "/images/project2.png",
         gitUrl: "https://github.com/RichiFU/Proyecto-2-CRUD-RFU",
@@ -23,15 +23,15 @@ const projectsData = [
     },
     {
         id: 3,
-        title: "Proyecto 3 : Dashboard",
-        description: "Proyecto de tablero de datos con Chart.js",
+        title: "Proyecto : Dashboard",
+        description: "Proyecto de tablero de datos con API dolar y Chart.js",
         image: "/images/project3.png",
         gitUrl: "https://github.com/RichiFU/Proyecto-3-Dashboard-RFU",
         previewUrl: "https://proyecto-3-dashboard-rfu.netlify.app/",
     },
     {
         id: 4,
-        title: "Proyecto 4 : Restaurant App",
+        title: "Proyecto : Restaurant App",
         description: "Proyecto de restaurant con React y Firebase",
         image: "/images/project4.png",
         gitUrl: "https://github.com/RichiFU/Proyecto-4-Restaurant-Ricardo-F",
@@ -39,11 +39,19 @@ const projectsData = [
     },
     {
         id: 5,
-        title: "Proyecto 5 : E-Commerce",
+        title: "Proyecto : E-Commerce",
         description: "Proyecto E-commerce, con React, MongoDB y Express",
         image: "/images/project5.png",
         gitUrl: "https://github.com/RichiFU/Proyecto-5-E-commerce-Front-End",
         previewUrl: "https://proyecto5-marathon-e-commerce.netlify.app/",
+    },
+    {
+        id: 6,
+        title: "Proyecto : Candy-page",
+        description: "Proyecto desarrollado con HTML, CSS y Bootstrap",
+        image: "/images/cndy.png",
+        gitUrl: "https://github.com/RichiFU/candy-bootstrap.git",
+        previewUrl: "https://richifu.github.io/candy-bootstrap/",
     },
 
 ];
