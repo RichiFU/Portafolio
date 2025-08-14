@@ -24,7 +24,7 @@ const projectsData = [
     {
         id: 3,
         title: "Proyecto : Dashboard",
-        description: "Proyecto de tablero de datos con API dolar y Chart.js",
+        description: "Proyecto de tablero de datos con JS, API dolar y Chart.js",
         image: "/images/project3.png",
         gitUrl: "https://github.com/RichiFU/Proyecto-3-Dashboard-RFU",
         previewUrl: "https://proyecto-3-dashboard-rfu.netlify.app/",
@@ -52,6 +52,14 @@ const projectsData = [
         image: "/images/cndy.png",
         gitUrl: "https://github.com/RichiFU/candy-bootstrap.git",
         previewUrl: "https://richifu.github.io/candy-bootstrap/",
+    },
+    {
+        id: 7,
+        title: "Proyecto : Guessing Game whit Python",
+        description: "Proyecto desarrollado con Python, File I/O, Unit test",
+        image: "/images/guessing-game.png",
+        gitUrl: "https://github.com/RichiFU/Python-game.git",
+        previewUrl: "/images/guessing-game.png",
     },
 
 ];
