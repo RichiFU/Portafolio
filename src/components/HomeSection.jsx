@@ -50,7 +50,7 @@ const HomeSection = () => {
           <div >
 
             <p className="text-xl mb-3 sm:text-xl md:text-xl lg:text-xl xl:text-xl text-[#ADB7BE]">
-              Mi pasión por la tecnología y la programación me impulsa a estar en constante aprendizaje, buscando soluciones innovadoras y eficientes para cada desafío que encuentro. Siempre estoy en la búsqueda de nuevas herramientas y metodologías que me permitan mejorar mis habilidades y mantenerme al tanto de las últimas tendencias en el mundo del desarrollo web.
+              Mi pasión por la tecnología y la programación me impulsa a estar en constante aprendizaje, buscando soluciones innovadoras y eficientes para cada desafío que encuentro. Siempre estoy en la búsqueda de nuevas herramientas y metodologías que permitan mejorar mis habilidades y mantenerme al tanto de las últimas tendencias en el mundo del desarrollo web.
             </p>
           </div>
           <div className="flex gap-2 flex-wrap justify-center">
