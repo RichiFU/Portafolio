@@ -10,7 +10,7 @@ const ContactForm = () => {
     const contacts = [
         {
             id: 1,
-            name: 'Sangers 1191, Temuco, Región de la Araucanía',
+            name: 'Chile',
             icon: <FiMapPin />,
         },
         {
