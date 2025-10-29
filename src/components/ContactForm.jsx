@@ -10,7 +10,7 @@ const ContactForm = () => {
     const contacts = [
         {
             id: 1,
-            name: 'Chile',
+            name: 'Ubicación',
             icon: <FiMapPin />,
         },
         {
