@@ -72,7 +72,7 @@ const projectsData = [
     {
         id: 9,
         title: "Veider Gym",
-        description: "One page moderna y responsive para un gimnasio en Temuco, desarrollada con Astro y Tailwind CSS. Incluye secciones de servicios y planes, formulario de contacto con validaciones y Formspree, integración de Google Maps, botón de WhatsApp, componentes reutilizables, SEO básico y despliegue en Netlify.",
+        description: "One page responsive para gimnasio desarrollada con Astro y Tailwind CSS, con servicios, planes, formulario de contacto y Formspree, Google Maps, WhatsApp, SEO básico y despliegue en Netlify.",
         image: "/images/projects/weider-preview.webp",
         gitUrl: "https://github.com/RichiFU/veider-gym",
         previewUrl: "https://veider-gym.netlify.app/",
