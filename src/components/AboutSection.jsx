@@ -71,6 +71,33 @@ const AboutSection = () => {
                   </h6>
                   <h6 className="flex items-center border-2 rounded px-3 py-1">
                     <Image
+                      src="/images/java-icon.svg"
+                      alt="hero image"
+                      width={30}
+                      height={30}
+                    />
+                    <span className="ml-2">Java</span>
+                  </h6>
+                  <h6 className="flex items-center border-2 rounded px-3 py-1">
+                    <Image
+                      src="/images/php-logo.svg"
+                      alt="hero image"
+                      width={30}
+                      height={30}
+                    />
+                    <span className="ml-2">PHP</span>
+                  </h6>
+                  <h6 className="flex items-center border-2 rounded px-3 py-1">
+                    <Image
+                      src="/images/wordpress.svg"
+                      alt="hero image"
+                      width={30}
+                      height={30}
+                    />
+                    <span className="ml-2">WordPress</span>
+                  </h6>
+                  <h6 className="flex items-center border-2 rounded px-3 py-1">
+                    <Image
                       src="/images/Bootstrap.png"
                       alt="hero image"
                       width={30}
@@ -139,7 +166,7 @@ const AboutSection = () => {
                       width={30}
                       height={30}
                     />
-                    <span className="ml-2">Github</span>
+                    <span className="ml-2">GitHub</span>
                   </h6>
 
 
@@ -169,6 +196,15 @@ const AboutSection = () => {
                       height={25}
                     />
                     <span className="ml-2">Postman</span>
+                  </h6>
+                  <h6 className="flex items-center border-2 rounded px-3 py-1">
+                    <Image
+                      src="/images/astro.svg"
+                      alt="hero image"
+                      width={25}
+                      height={25}
+                    />
+                    <span className="ml-2">Astro</span>
                   </h6>
 
                 </div>
